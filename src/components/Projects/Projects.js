@@ -26,39 +26,9 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={area}
-              isBlog={false}
-              title="Area"
-              description="AREA stands for Action REAction. AREA is a software suite that have the objective to create links between Actions and Reactions from different services with the use of triggers. Services includes Spotify, Google calendar, Discord, Google drive, Github, Gmail, Weather Api, Youtube."
-              ghLink="https://github.com/titi0267/Area"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={gtc}
-              isBlog={false}
-              title="Grand Theft Covid"
-              description="This is a Role-Play game developed in 2021 during my first year at Epitech. You have been recently promoted to sheriff of Los Hopkins. The Covid-19 has taken over the world and it makes people violent. You need to meet the Dr. Warren which has found the only working vaccine against Covid-19. Take the vaccine and protect and travel safely to the hospital to deliver it !"
-              ghLink="https://github.com/titi0267/Grand-Theft-Covid"
-              demoLink="https://www.youtube.com/watch?v=yY1vTll0O1w"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={epitech}
-              isBlog={false}
-              title="My second school Year projects"
-              description="This repository contains all of my projects made during my second year at Epitech. It is a mix between C and C++ projects."
-              ghLink="https://github.com/titi0267/Tek2"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={gasPrices}
               title="Gas-Prices"
-              description="A mobile app in React-Native linked to an Api that I've also created. You will be able to enter your itinerary in the app and you will see all the gas stations around your path along with their prices. Go the the cheapest one to save some money ! (Release planned on March 2024)"
+              description="A mobile app in React-Native linked to an Api that I've also created. You will be able to enter your itinerary in the app and you will see all the gas stations around your path along with their prices. Go the the cheapest one to save some money !"
               ghLink="https://github.com/titi0267/GasPrices"
               playstoreLink="https://play.google.com/store/apps/details?id=com.opticarbu&hl=fr-FR"
             />
@@ -70,11 +40,10 @@ function Projects() {
               isBlog={true}
               isPlaystore={true}
               title="Kuhn"
-              description="Kuhn Group is an agricultural machinery manufacturer which has his headquartered in Saverne, France. I've worked there a few monthes on 3 of their apps. Kuhn Nozzle configurator which was updated in 2023. Kuhn Seedset and Kuhn ForageXpert which are still pending for the new release that I've worked on."
+              description="Kuhn Group is an agricultural machinery manufacturer which has his headquarters in Saverne, France. I've worked there a few monthes on 3 of their apps. Kuhn Nozzle configurator which was updated in 2023. Kuhn Seedset and Kuhn ForageXpert which are still pending for the new release that I've worked on."
               playstoreLink="https://play.google.com/store/apps/details?id=com.kuhn.app.ReglageBuses&pcampaignid=web_share"
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={kitrek}
@@ -97,12 +66,11 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bombitek}
+              imgPath={epitech}
               isBlog={false}
-              title="Bombitek"
-              description="This CPP project is the final project of my second year at Epitech. Compete against 3 bots or against up to 3 of your freinds, Plant bombs to make your way to the other players on the map. Collect powers like larger bombs, speed powers or even stun powers and be the last one to survive to win the game, but be carefull not to commit suicide with your own bomb !"
-              ghLink="https://github.com/titi0267/Bombitek"
-              demoLink="https://www.youtube.com/watch?v=9O49n-4K7Bk"
+              title="My second school Year projects"
+              description="This repository contains all of my projects made during my second year at Epitech. It is a mix between C and C++ projects."
+              ghLink="https://github.com/titi0267/Tek2"
             />
           </Col>
 
@@ -115,6 +83,38 @@ function Projects() {
               ghLink="https://github.com/titi0267/Tek1"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={area}
+              isBlog={false}
+              title="Area"
+              description="AREA stands for Action REAction. AREA is a software suite that have the objective to create links between Actions and Reactions from different services with the use of triggers. Services includes Spotify, Google calendar, Discord, Google drive, Github, Gmail, Weather Api, Youtube."
+              ghLink="https://github.com/titi0267/Area"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={gtc}
+              isBlog={false}
+              title="Grand Theft Covid"
+              description="This is a Role-Play game developed in 2021 during my first year at Epitech. You have been recently promoted to sheriff of Los Hopkins. The Covid-19 has taken over the world and it makes people violent. You need to meet the Dr. Warren which has found the only working vaccine against Covid-19. Take the vaccine and protect and travel safely to the hospital to deliver it !"
+              ghLink="https://github.com/titi0267/Grand-Theft-Covid"
+              demoLink="https://www.youtube.com/watch?v=yY1vTll0O1w"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bombitek}
+              isBlog={false}
+              title="Bombitek"
+              description="This CPP project is the final project of my second year at Epitech. Compete against 3 bots or against up to 3 of your freinds, Plant bombs to make your way to the other players on the map. Collect powers like larger bombs, speed powers or even stun powers and be the last one to survive to win the game, but be carefull not to commit suicide with your own bomb !"
+              ghLink="https://github.com/titi0267/Bombitek"
+              demoLink="https://www.youtube.com/watch?v=9O49n-4K7Bk"
+            />
+          </Col>
+
           <p style={{ color: "white", fontSize: 25 }}>
             Check my <strong className="purple">Github</strong> for more
             projects
